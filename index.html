@@ -1,0 +1,107 @@
+<!-- Jacob Shanefield Fall 2017 11/12-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Front Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel = "stylesheet" type = "text/css" href = "css/style1.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #FFC904;
+	  padding-bottom: 0;
+      }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+  
+  .footer-main {
+     background: #81ccfb;
+     padding: 1em;
+     position: absolute;
+     left: 0;
+     right: 0;
+     bottom: 0;
+}
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none;
+    }
+  }
+  </style>
+</head>
+<body>
+
+<div class = "navigationisstupid">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+       
+      </button>
+      <a class="navbar-brand" href="index.html"> <img src="images/knight.png" alt="not found" style="width:60px;height:45px; margin-top: -20%;"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="../index.html">Home</a></li>
+        <li><a href="html/marketing.html">About</a></li>
+        
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="html/login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+		<li><a href="#"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">CLEARNACE: 40% OFF</div>
+        <div class="panel-body"><img src="../images/colorkazoos.jpg" class="img-responsive" style="width:50%" alt="Image"></div>
+        <div class="panel-footer">Offer available on all plastic kazoos</div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">BOGO</div>
+        <div class="panel-body"><img src="../images/mkazoos.jpeg" class="img-responsive" style="width:50%" alt="Image"></div>
+        <div class="panel-footer">Buy one get one on all premium kazoos</div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">Kazoo Accessories</div>
+        <div class="panel-body"><img src="../images/kattachment.jpg" class="img-responsive" style="width:50%" alt="Image"></div>
+        <div class="panel-footer">Prices may vary</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
+
+
