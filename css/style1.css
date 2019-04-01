@@ -6,5 +6,9 @@
 }
 
 body{
-  background-color: #c4c4c4;
+	background-color: #777777;
+}
+
+.container{
+  background-color: #777777;
 }
