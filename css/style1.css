@@ -1,0 +1,21 @@
+/* stylesheet */
+h3{
+	background-color: #FFC904;
+	margin-top: 0;
+	padding: 1%;
+	margin-right: -50%;
+	margin-left: -50%;
+	font-family: "Courier New";
+	font-weight: bold;
+}
+
+.carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+  
+.navigationisstupid {
+	margin-bottom: 3%;
+	
+}
