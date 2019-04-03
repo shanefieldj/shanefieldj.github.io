@@ -1,14 +1,60 @@
 /* stylesheet */
-
+  
 .navigationisstupid {
 	margin-bottom: 3%;
 	
 }
 
-.container{
-  	background-color: #777777;
+body{
+	background-color: #777777;
+	
+	
 }
 
-body{
-	 background-color: #777777;
+
+
+.container1{
+	
+	padding-top:100px;
+	padding-bottom:390px;
+	padding-left:25%;
+	margin-left:10%;
+	margin-right:10%;
+	background-color: #999999;
+	
+}
+
+
+.projects1{
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+#projects{
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.btn-info{
+	background-color:black;
+	border-color:black;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.btn-info:visited, .btn-info:link, .btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active { 
+  background-color: black !important;
+  border-color:black !important; 
+  box-shadow: none;
+  outline: 0 none;
+}
+
+#home_icon{
+	width:60px;
+	height:45px; 
+	margin-top: -20%;
+}
+
+.workinfo{
+	width: 50%;
 }
