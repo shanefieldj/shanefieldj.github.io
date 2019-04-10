@@ -33,18 +33,8 @@ footer{
 	background-color: #999999;
 }
 
-
-.projects1{
-	margin-top: 1%;
-	margin-bottom: 1%;
-}
-
-#projects{
-	margin-top: 1%;
-	margin-bottom: 1%;
-}
-
 .btn-info{
+	width: 50%;
 	background-color:black;
 	border-color:black;
 	margin-top: 1%;
@@ -54,6 +44,7 @@ footer{
 .btn-link, .btn-link:hover{
 	background-color: black;
 	border-radius: 4px;
+	width:50%;
 }
 
 .btn-info:visited, .btn-info:link, .btn-info:hover, .btn-info:focus, .btn-info:active{ 
@@ -69,11 +60,6 @@ footer{
 	margin-top: -20%;
 }
 
-.workinfo{
-	width: 50%;
-}
-
-
 @media only screen and (max-device-width: 414px) {
 	.container1{
 	padding-top:10%;
@@ -84,5 +70,6 @@ footer{
 	height: 100%;
 	
 }
-}
 
+
+}
